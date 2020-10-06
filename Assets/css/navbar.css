@@ -78,6 +78,9 @@ nav .sidebar .close{
     color: white;
     text-align: center;
 }
+#active{
+    background: #354672;
+}
 
 
 @media (min-width: 1200px){
