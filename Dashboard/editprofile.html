@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Profile</title>
-    <link rel="stylesheet" href="../Assets/css/editprofile.css">
     <link rel="stylesheet" href="../Assets/css/navbar.css">
+    <link rel="stylesheet" href="../Assets/css/editprofile.css">
 </head>
 <body>
     <nav>
@@ -39,25 +39,84 @@
                 <h1 id="userName">GeekTutor</h1>
             </div>
             <div class="nav-links">
-                <div class="profile" id="active">
-                    <i class="fas fa-user"></i> <span><a href=""><p>Profile</p></a></span>
+                <a href="" class="dash-link">
+                    <div class="profile" id="active">
+                        <i class="fas fa-user"></i> <span><p>Profile</p></span>
+                    </div>
+                </a>
+                <a href="" class="dash-link">
+                    <div class="profile">
+                        <img src="../Assets/images/task-view.svg" alt=""> <span><p>View Tasks</p></span>
                 </div>
-                <div class="profile">
-                    <img src="../Assets/images/task-view.svg" alt=""> <span><a href=""><p>View Tasks</p></a></span>
-                </div>
-                <div class="profile">
-                    <i class="fas fa-plus-circle"></i> <span><a href=""><p>Submit Tasks</p></a></span>
-                </div>
-                <div class="profile">
-                    <i class="fas fa-paper-plane"></i> <span><a href=""><p>Submissions</p></a></span>
-                </div>
-                <div class="profile">
-                    <img src="../Assets/images/leaderboard.svg" alt=""> <span><a href=""><p>leaderboard</p></a></span>
-                </div>
+                </a>
+                <a href="" class="dash-link">
+                    <div class="profile">
+                        <i class="fas fa-plus-circle"></i> <span><p>Submit Tasks</p></span>
+                    </div>
+                </a>
+                <a href="" class="dash-link">
+                    <div class="profile">
+                        <i class="fas fa-paper-plane"></i> <span><p>Submissions</p></span>
+                    </div>
+                </a>
+                <a href="" class="dash-link">
+                    <div class="profile">
+                        <img src="../Assets/images/leaderboard.svg" alt=""> <span><p>leaderboard</p></span>
+                    </div>
+                </a>
             </div>
             <p class="email">olamide@boss.com</p>
         </div>
     </nav>
+
+    <div class="redirect-arrow-container">
+        <a href=""><i class="fas fa-arrow-left"></i></a>
+    </div>
+
+    <div class="edit-profile-container">
+        <div class="title-container">
+            <div class="img-name-container">
+                <img class="avatar" src="https://via.placeholder.com/64/354672/?text=Your+Picture" alt="" width="64px" height="64px">
+                <p class="name">GeekTutor</p>
+            </div>
+            <div class="account-tier-container">
+                <p class="account-tier">FREE TIER ACCOUNT</p>
+                <a href=""><button class="upgrade-btn">UPGRADE</button></a>
+            </div>
+        </div>
+
+        <div class="edit-form-container">
+            <form class="profile-form">
+                <div class="input-wrapper">
+                    <label for="first_name">First Name</label>
+                    <input type="text" value="GeekTutor" placeholder="Enter first name" id="first_name">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" value="10G" placeholder="Enter last name" id="last_name">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="email">Email</label>
+                    <input type="email" value="geek@30daysofcode.com" placeholder="Enter email" id="email">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="text" placeholder="not available" id="phone_number">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="user_name">Username</label>
+                    <input type="text" value="GeekTutor" placeholder="Enter user_name" id="user_name">
+                </div>
+                <div class="form-submit-wrapper">
+                    <input type="submit" value="Save">
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 <script src="../Assets/js/navbar.js"></script>
 <script src="https://kit.fontawesome.com/dc7f1f050e.js" crossorigin="anonymous"></script>
