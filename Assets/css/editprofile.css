@@ -1,0 +1,169 @@
+.redirect-arrow-container {
+    text-align: right;
+    width: 90%;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.redirect-arrow-container a i {
+    color: #000000;
+}
+
+.edit-profile-container {
+    margin-left: 290px;
+}
+
+p.name {
+    margin: 0;
+    font-weight: 600;
+    
+}
+.img-name-container {
+    text-align: center;
+    width: 10%;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+img.avatar {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.account-tier-container {
+    width: 85%;
+    padding-top: 15px;
+}
+
+p.account-tier {
+    margin: 0;
+    font-weight: 600;
+    color: #3FA5D0;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+button.upgrade-btn {
+    background-color: #354672;
+    border: none;
+    padding: 10px 48px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 600;
+    /* font-size: 16px; */
+}
+
+.edit-form-container {
+    margin-right: 80px;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+form.profile-form input {
+    width: 83%;
+    padding: 5px 0;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+form.profile-form input:focus {
+    outline: none;
+}
+
+form.profile-form label {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+form.profile-form .form-submit-wrapper input {
+    width: 100%;
+    border: none;
+    background-color: #354672;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .edit-profile-container {
+        margin: 0;
+        width: 85%;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    form.profile-form input {
+        width: 100%;
+        padding-left: 0;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .account-tier-container {
+        width: 30%;
+        text-align: center;
+    }
+
+    button.upgrade-btn {
+        padding: 10px 15px;
+        border-radius: 2px;
+        font-weight: 400;
+    }
+
+    p.account-tier {
+        font-weight: 400;
+    }
+
+    .img-name-container {
+        width: 50%;
+    }
+
+    img.avatar {
+        width: 130px;
+        height: 130px;
+    }
+
+    p.name {
+        display: none;
+    }
+
+    .input-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .edit-form-container {
+        margin: 0;
+        padding-bottom: 30px;
+    }
+
+    form.profile-form label {
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+
+    form.profile-form .form-submit-wrapper input {
+        padding: 15px 0;
+        border-radius: 5px;
+    }
+
+    .redirect-arrow-container {
+        width: 85%;
+    }
+}
