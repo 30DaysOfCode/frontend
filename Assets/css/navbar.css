@@ -7,7 +7,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-a{
+.sidebar a{
     text-decoration: none;
     color: white;
 }
@@ -24,7 +24,9 @@ nav .top-nav button{
     outline: none;
 }
 nav .menuDB{
-    padding: 18px;
+    margin: 18px;
+    width: 35px;
+    height: 30px
 }
 .sidebar{
     background:#071733;
