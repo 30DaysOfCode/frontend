@@ -11,6 +11,10 @@ body{
     text-decoration: none;
     color: white;
 }
+
+a.dash-link:hover .profile {
+    background-color:  #354672;
+}
 nav .top-nav{
     display: flex;
     justify-content: space-between;
@@ -24,9 +28,7 @@ nav .top-nav button{
     outline: none;
 }
 nav .menuDB{
-    margin: 18px;
-    width: 35px;
-    height: 30px
+    padding: 18px;
 }
 .sidebar{
     background:#071733;
@@ -34,10 +36,15 @@ nav .menuDB{
     position: absolute;
     left: 0px;
     top: 58px;
-    display: none;
+    /* display: none; */
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
 }
 nav .block{
-    display: block;
+    /* display: block; */
+    transform: translateX(0);
+    transition: all 1s ease;
+
 }
 nav .sidebar .image img{
     border-radius: 50%;
@@ -55,6 +62,8 @@ nav .sidebar .close{
     position: absolute;
     top: 16.5px;
     right: 17.5px;
+    cursor: pointer;
+    display: none;
 }
 .nav-links .profile {
     display: flex;
@@ -84,14 +93,21 @@ nav .sidebar .close{
     background: #354672;
 }
 
-
 @media (min-width: 1200px){
     .sidebar{
-        display: block;
+        /* display: block; */
+        transform: translateX(0);
     }
 }
 @media (min-width: 996px) and (max-width: 1199px){
     .sidebar{
+        /* display: block; */
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    nav .sidebar .close {
         display: block;
     }
 }
