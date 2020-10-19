@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #354672;
+}
+
+.section1 .filter{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1 .filter .filterbtn{
+    background-color: #071733;
+    width: 100px;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.top3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+}
+.top3 .firstPosition{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #062760;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 110.9px;
+    /* flex-wrap: wrap; */
+    
+}
+.top3 .secondPosition{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -15px;
+    top: 25px;
+    background-color: #F6551E;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 98px;
+    /* flex-wrap: wrap; */
+}
+.top3 .thirdPosition{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -15px;
+    top: 35px;
+    background-color: #007373;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 85px;
+    /* flex-wrap: wrap; */
+}
+.top3 .ellipseL{
+    position: absolute;
+    left: 35px;
+    top: -13px;
+    text-align: center;
+}
+.top3 #username{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 25px;
+    /* width: 60px; */
+}
+.top3 #trackLeaderboard{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 3px;
+}
+.top3 #score{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding-top: 6px;
+}
+.leaderboardContent{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.positioning{
+    padding-top: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+}
+.colored{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #007373;
+    width: 300px;
+    border-radius: 20px;
+    padding: 3px;
+    position: relative;
+    margin: auto;
+}
+.container .ellipseL{
+    position: absolute;
+    left: -10px;
+    top: -1px;
+}
+.container .position{
+    position: absolute;
+    left: -25px;
+    top: 1px;
+}
+.colored p{
+    margin: 0;
+}
+#frontend{
+    background: #F6551E;
+}
+#backend{
+    background: #FF2121;
+}
+#ui-ux{
+    background: #007373;
+}
+#python{
+    background: #411B94;
+}
+
+@media (min-width: 1440px){
+    .section1 .filter{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        width: 350px;
+        left: 540px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1430px){
+    .section1 .filter{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        width: 350px;
+        left: 450px;
+    }
+}
+@media (min-width: 996px) and (max-width: 1199px){
+    .section1 .filter{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        width: 350px;
+        left: 340px;
+    }
+    .colored {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #007373;
+        width: 50%;
+        border-radius: 20px;
+        padding: 3px;
+        position: relative;
+        margin: auto;
+    }
+}
