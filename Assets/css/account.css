@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+}
+#account-tier{
+    background: #354672;
+}
+.account-head{
+    font-size: 28px;
+    text-align: center;
+    padding:5rem 0 3rem 0;
+    color: white;
+}
+.flex-container{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.choice{
+    height: 113px;
+width: 15px;
+border-radius: 50px;
+background-color: white;
+margin-right: 10px;
+margin-left: -25px;
+display: none;
+}
+#choice{
+    display: block;
+}
+.account{
+    height: 113px;
+width: 164px;
+font-size: 18px;
+text-align: center;
+border-radius: 0px 5px 5px 0px;
+background-color: yellow;
+padding-top: 30px;
+line-height: 25px;
+position: relative;
+z-index: 1;
+margin-right: -4px;
+}
+span{
+    display: block;
+    font-weight: bold;
+}
+#free{
+    background: #3FA5D0;
+}
+#one{
+    background: #78BCC4;
+}
+#two{
+    background: #E0761E;
+}
+.description{
+    width: 700px;
+    height: 113px;
+    font-size: 18px;
+    background-color: white;
+   padding: 35px 50px 20px 40px;
+   line-height: 20px;
+   border-radius: 0px 5px 5px 0px;
+}
+.btn-head{
+    text-align: center;
+    padding-bottom: 3rem;
+    margin-top: 20px;
+}
+.account-btn{
+    width: 860px;
+    text-align: center;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    border:1px solid #071733;
+    outline: none;
+    border-radius: 5px;
+    background: #071733;
+    color: white;
+    font-size: 30px;
+}
+.account-btn:hover{
+    background: #3FA5D0;
+    color:#071733 ;
+}
+
+@media screen and (max-width:770px){
+.choice{
+    width: 10px;
+    margin-left: -20px;
+}      
+.account{
+    width: 120px;
+    font-size: 16px;
+}
+.description{
+    width: 500px;
+    font-size: 16px;
+}
+.account-btn{
+    width: 80%;
+}
+
+}
+
+@media screen and (max-width:500px){
+.account{
+    width: 100px;
+}
+.description{
+    width: 250px;
+    padding: 20px;
+    font-size: 14px;
+}
+.account-btn{
+    height: 50px;
+    font-size: 18px;
+    width: 345px;
+}
+
+}
+@media screen and (max-width:400px){
+.account{
+    width: 90px;
+    font-size: 16px;
+}
+.description{
+    width: 200px;
+    padding: 15px;
+}
+.account-btn{
+    width: 285px;
+    height: 40px;
+    font-size: 18px;
+}
+
+}
+
+@media screen and (max-width:350px){
+.choice{
+    width: 8px;
+    margin-left: -18px;
+}
+.account{
+    width: 70px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.account-btn{
+    width: 265px;
+}
+
+}

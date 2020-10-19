@@ -27,8 +27,10 @@ nav .top-nav button{
     border: none;
     outline: none;
 }
-nav .menuDB{
-    padding: 18px;
+nav .menuDB {
+    margin: 18px 5px 18px 18px;
+    width: 35px;
+    height: 20px;
 }
 .sidebar{
     background:#071733;
@@ -38,7 +40,7 @@ nav .menuDB{
     top: 58px;
     /* display: none; */
     transform: translateX(-100%);
-
+    z-index: 1;
     transition: all 0.5s ease;
 
 }
