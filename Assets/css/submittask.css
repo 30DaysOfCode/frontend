@@ -23,6 +23,7 @@
     font-size: 20px;
     line-height: 25px;
     outline: none;
+    background-color: transparent;
 }
 .task-title .submit{
     font-weight: bold;
@@ -47,7 +48,7 @@
 .url-container #url{
     margin-top: 18px;
     padding: 13px 17px 12px 17px;
-    width: 247px;
+    width: 250px;
     background: #F9F9F9;
     outline: none;
     border: 0.5px solid #9A9A9A
