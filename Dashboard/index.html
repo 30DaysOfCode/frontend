@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../Assets/css/index.css">
+    <link rel="stylesheet" href="../Assets/css/navbar.css">
+</head>
+<body>
+    <nav>
+        <div class="top-nav">
+            <img src="../Assets/images/30DOC_Logo_White.svg" alt="30DOC Logo">
+            <button class="user">
+                <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                    <path d="M5.84375 1.0625C5.04688 1.0625 4.42432 1.35579 3.97607 1.94238C3.52783 2.52897 3.30371 3.27881 3.30371 4.19189C3.29818 5.32633 3.66341 6.22559 4.39941 6.88965C4.49349 6.97819 4.52669 7.09163 4.49902 7.22998L4.30811 7.62842C4.24723 7.76123 4.15731 7.86499 4.03833 7.9397C3.91935 8.0144 3.66895 8.12093 3.28711 8.25928C3.27051 8.26481 2.92049 8.37826 2.23706 8.59961C1.55363 8.82096 1.18978 8.94271 1.14551 8.96484C0.680664 9.15853 0.376302 9.36051 0.232422 9.5708C0.077474 9.91943 0 10.8021 0 12.2188H11.6875C11.6875 10.8021 11.61 9.91943 11.4551 9.5708C11.3112 9.36051 11.0068 9.15853 10.542 8.96484C10.4977 8.94271 10.1339 8.82096 9.45044 8.59961C8.76701 8.37826 8.41699 8.26481 8.40039 8.25928C8.01855 8.12093 7.76815 8.0144 7.64917 7.9397C7.53019 7.86499 7.44027 7.76123 7.37939 7.62842L7.18848 7.22998C7.16081 7.09163 7.19401 6.97819 7.28809 6.88965C8.02409 6.22559 8.38932 5.32633 8.38379 4.19189C8.38379 3.27881 8.15967 2.52897 7.71143 1.94238C7.26318 1.35579 6.64062 1.0625 5.84375 1.0625Z" fill="white"/>
+                    </g>
+                    <path d="M12.75 9.03125L15.4062 11.6875L18.0625 9.03125" fill="white"/>
+                    <defs>
+                    <clipPath id="clip0">
+                    <rect width="11.6875" height="12.2188" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+            </button>
+        </div> 
+        <div class="menuDB" onclick="openNav()">
+            <img src="../Assets/images/MenuDB.png" alt="">
+        </div>
+        <div class="sidebar">
+            <div class="close" onclick="openNav()">
+                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.50107 11.294L13.6796 16.596C14.1991 17.132 14.5371 17.1375 15.0661 16.596L16.1051 15.532C16.6141 15.011 16.6486 14.669 16.1051 14.1125L10.6226 8.50001L16.1056 2.88751C16.6191 2.36001 16.6291 2.00401 16.1056 1.46751L15.0666 0.404006C14.5276 -0.147994 14.1946 -0.122494 13.6801 0.404006L8.50107 5.70601L3.32257 0.404506C2.80807 -0.121994 2.47507 -0.147494 1.93607 0.404506L0.897069 1.46801C0.373069 2.00451 0.382569 2.36051 0.897069 2.88801L6.37957 8.50001L0.897069 14.1125C0.353569 14.669 0.382569 15.011 0.897069 15.532L1.93557 16.596C2.46007 17.1375 2.79807 17.132 3.32207 16.596L8.50107 11.294Z" fill="white"/>
+                    </svg>                    
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/64/354672/?text=Your+Picture" alt="" width="64px" height="64px">
+                <h1 id="userName">GeekTutor</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="dash-link">
+                    <div class="profile" id="active">
+                        <i class="fas fa-user"></i> <span><p>Profile</p></span>
+                    </div>
+                </a>
+                <a href="viewtask.html" class="dash-link">
+                    <div class="profile">
+                        <img src="../Assets/images/task-view.svg" alt=""> <span><p>View Tasks</p></span>
+                </div>
+                </a>
+                <a href="submittask.html" class="dash-link">
+                    <div class="profile">
+                        <i class="fas fa-plus-circle"></i> <span><p>Submit Tasks</p></span>
+                    </div>
+                </a>
+                <a href="submissions.html" class="dash-link">
+                    <div class="profile" >
+                        <i class="fas fa-paper-plane"></i> <span><p>Submissions</p></span>
+                    </div>
+                </a>
+                <a href="leaderboard.html" class="dash-link">
+                    <div class="profile">
+                        <img src="../Assets/images/leaderboard.svg" alt=""> <span><p>leaderboard</p></span>
+                    </div>
+                </a>
+            </div>
+            <p class="email">olamide@boss.com</p>
+        </div>
+    </nav>
+
+    
+</body>
+<script src="../Assets/js/navbar.js"></script>
+<script src="https://kit.fontawesome.com/dc7f1f050e.js" crossorigin="anonymous"></script>
+</html>

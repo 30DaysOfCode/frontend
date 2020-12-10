@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.submissions{
+    width: 343px;
+    height: auto;
+    /* padding: 10px; */
+    
+    border: 0.3px solid #9A9A9A;
+    margin: auto;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+section .tablehead{
+    display: flex;
+}
+.tablehead .title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+    margin-top: 12px;
+}
+select{
+    width: 58px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+/* select option{
+    font-size: 8px;
+} */
+.tablehead a{
+    background: #3FA5D0;
+    width: 59px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.tablehead a p{
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 5px;
+}
+.trside{
+    /* background: #F9F9F9;
+    border: 0.5px solid #9A9A9A; */
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+th a{
+    width: 55px;
+}
+th{
+    padding: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+td{
+    padding: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    text-align: center;
+}
+#url a{
+    width: 30px;
+    font-size: 15px;
+}
+hr{
+    border: 1px solid #9A9A9A;
+}
