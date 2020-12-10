@@ -1,0 +1,84 @@
+.submit-task-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit-task-wrapper{
+    width: 343px;
+    height: auto;
+    border: 0.3px solid #9A9A9A;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.submit-task-form{
+    padding: 26px 20px 8px 30px;
+}
+.task-title{
+    display: flex;
+    justify-content: space-between;
+}
+#day{
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    outline: none;
+}
+.task-title .submit{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+}
+.track-container #track{
+    padding: 13px 17px 12px 17px;
+    width: 285px;
+    background: #F9F9F9;
+    outline: none;
+    border: 0.5px solid #9A9A9A
+}
+.level-container #level{
+    margin-top: 18px;
+    padding: 13px 17px 12px 17px;
+    width: 285px;
+    background: #F9F9F9;
+    outline: none;
+    border: 0.5px solid #9A9A9A
+}
+.url-container #url{
+    margin-top: 18px;
+    padding: 13px 17px 12px 17px;
+    width: 247px;
+    background: #F9F9F9;
+    outline: none;
+    border: 0.5px solid #9A9A9A
+}
+.guide-container{
+    margin: 9px 0px 14px;
+}
+.comment-container textarea{
+    padding: 10px 0px 0px 10px;
+    outline: none;
+    background: #F9F9F9;
+    border: 0.5px solid #9A9A9A
+}
+.download-task-container input{
+    margin-top: 20px;
+    width: 285px;
+    padding: 14px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 31px;
+    color: #FFFFFF;
+    background: #071733;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (min-width: 1200px){
+    .submit-task-wrapper{
+        width: auto;
+    }
+    .submit-task-form{
+        padding: 26px 68px 5px 68px;
+    }
+}

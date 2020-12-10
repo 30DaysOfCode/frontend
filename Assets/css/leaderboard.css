@@ -165,7 +165,7 @@ body{
         justify-content: space-around;
         position: relative;
         width: 350px;
-        left: 450px;
+        left: 500px;
     }
 }
 @media (min-width: 996px) and (max-width: 1199px){

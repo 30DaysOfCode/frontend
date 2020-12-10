@@ -3,7 +3,9 @@ body {
 }
 
 .view-task-container {
-    margin-left: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .view-task-wrapper {
