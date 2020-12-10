@@ -57,6 +57,8 @@
     margin: 9px 0px 14px;
 }
 .comment-container textarea{
+    width: 275px;
+    height: 100px;
     padding: 10px 0px 0px 10px;
     outline: none;
     background: #F9F9F9;
