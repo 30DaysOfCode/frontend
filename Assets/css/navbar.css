@@ -10,6 +10,7 @@ body{
 .sidebar a{
     text-decoration: none;
     color: white;
+    margin: 0px;
 }
 
 a.dash-link:hover .profile {
@@ -35,6 +36,7 @@ nav .menuDB {
 .sidebar{
     background:#071733;
     height: 100%;
+    /* max-height: 100%; */
     position: absolute;
     left: 0px;
     top: 58px;
