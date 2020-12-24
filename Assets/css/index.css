@@ -139,7 +139,9 @@
     bottom: 0px;
     right: 0px;
 }
-
+#sidebar{
+    height: 120%;
+}
 
 @media (min-width: 1200px){
     #sidebar{
